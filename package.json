@@ -1,0 +1,22 @@
+{
+  "name": "react-native-design-to-component",
+  "version": "1.0.0",
+  "description": "A tool for developers to transform design dimensions to different device resolutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "design",
+    "dimensions",
+    "responsive"
+  ],
+  "author": "Joseph Clough",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-native": "^0.61.5"
+  }
+}
