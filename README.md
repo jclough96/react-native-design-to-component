@@ -35,12 +35,12 @@ import {ScaleHook} from 'react-native-design-to-component';
 
 function() {
 
-    const { height, width, fontSize, radius } = ScaleHook();
+    const { getHeight, getWidth, fontSize, radius } = ScaleHook();
 
     const style = {
         container: {
-            height: height(44),
-            width: width(280),
+            height: getHeight(44),
+            width: getWidth(280),
             borderRadius: radius(12)
         },
         text: {
