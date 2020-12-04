@@ -29,13 +29,13 @@ return (
 ## Using The Hooks
 
 ```
-import {ScaleHook} from 'react-native-design-to-component';
+import {useScale} from 'react-native-design-to-component';
 
 // ... Further imports
 
 function() {
 
-    const { getHeight, getWidth, fontSize, radius } = ScaleHook();
+    const { getHeight, getWidth, fontSize, radius } = useScale();
 
     const style = {
         container: {
@@ -60,6 +60,8 @@ function() {
 ## Dependencies
 
 We use `react-native-hooks` to get the dimensions of the target device.
+
+> Note: When on web react-native-hooks isn't compiled or used.
 
 Make sure you check out the `package.json`.
 
